@@ -1,0 +1,10 @@
+# Maven
+/target/
+
+# Eclipse IDE
+.classpath
+.project
+.settings
+
+# IntelliJ
+.idea
