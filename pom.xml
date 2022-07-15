@@ -20,6 +20,13 @@
 			<url>https://hub.spigotmc.org/nexus/content/repositories/snapshots/</url>
 		</repository>
 
+		<!-- Local WhitescanAPI Repo -->
+		<repository>
+			<id>project.local.whitescanapi</id>
+			<name>WhitescanAPI</name>
+			<url>file:${project.basedir}/repo/</url>
+		</repository>
+
 	</repositories>
 
 	<dependencies>
@@ -38,6 +45,14 @@
 			<artifactId>spigot</artifactId>
 			<version>1.19-R0.1-SNAPSHOT</version>
 			<scope>provided</scope>
+		</dependency>
+
+		<!-- WhitescanAPI -->
+		<dependency>
+			<groupId>de.whitescan</groupId>
+			<artifactId>api</artifactId>
+			<version>1.1.0</version>
+			<scope>compile</scope>
 		</dependency>
 
 	</dependencies>

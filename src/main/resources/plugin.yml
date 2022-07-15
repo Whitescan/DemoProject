@@ -1,0 +1,15 @@
+name: ${project.name}
+version: ${project.version}
+description: ${project.description}
+api-version: 1.19
+authors: [Whitescan, BigBxn, Txbi, Mind0fBenni]
+main: de.whitescan.demoproject.DemoProject
+
+commands:
+  warn:
+    description: Warn a player
+    usage: </command> <player> <reason>
+    permission: demoproject.command.warn
+    aliases: [warning]
+  msg:
+  sudo:

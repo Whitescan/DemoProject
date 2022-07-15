@@ -1,0 +1,35 @@
+# DemoProject Configuration
+config:
+
+  # SQL Section
+  sql: 
+    
+    # The host address of the SQL database
+    # Default: localhost
+    host: localhost
+    
+    # The port of the SQL database
+    # Default: 3306
+    port: 3306
+    
+    # The name of the SQL database
+    name: ''
+    
+    # The user to access the SQL database
+    # Default: root
+    user: root
+    
+    # The password to access the SQL database
+    password: ''
+    
+    # The custom table prefix for SQL tables
+    table-prefix: ''
+  
+  # Warns Section
+  warns:
+    '1': kick {PLAYER} 1. Warn Violation
+    '2': mute {PLAYER} 2. Warn Violation
+    '3': ban {PLAYER} 3. Warn Violation
+    
+  # Setup Mode - DONT TOUCH THIS
+  setup: true
